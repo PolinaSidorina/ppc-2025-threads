@@ -20,7 +20,6 @@ inline std::vector<double> MultiplyMatrixByVector(const std::vector<double>& a, 
   return result;
 }
 
-
 inline double VectorNorm(const std::vector<double>& vec) {
   double sum = 0;
   for (double value : vec) {

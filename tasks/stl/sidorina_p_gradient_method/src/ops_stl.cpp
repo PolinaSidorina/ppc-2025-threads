@@ -16,7 +16,6 @@ bool sidorina_p_gradient_method_stl::GradientMethod::PreProcessingImpl() {
   return Cholesky(a_, size_, size_);
 }
 
-
 bool sidorina_p_gradient_method_stl::GradientMethod::ValidationImpl() {
   if (*reinterpret_cast<int*>(task_data->inputs[0]) <= 0 || static_cast<int>(task_data->inputs_count[2]) <= 0 ||
       static_cast<int>(task_data->inputs_count[3]) <= 0 || static_cast<int>(task_data->inputs_count[4]) <= 0) {
